@@ -19,6 +19,8 @@
 .align-end {
     align-self: end;
 }
+
+
 .bg-linear-gradient {
     background: linear-gradient(90deg, rgb(245, 124, 126), rgb(236, 109, 109), rgb(222, 81, 81));
 }
@@ -65,7 +67,7 @@
 }
 
 .color-icon-p {
-    color: rgb(255, 73, 72);
+    color: rgb(247, 189, 189);
 }
 
 .color-icon-wp {
@@ -74,7 +76,67 @@
 
 .container {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1100px;
+}
+
+.description-text-color {
+    color: #433e3e;
+}
+
+.feature-icon {
+   border: 1px solid rgb(247, 189, 189);
+   border-radius: 50%; 
+   height: 60px;
+   width: 60px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+.feature-icon-outer-ring {
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   position: relative;
+   
+}
+
+.feature-icon-outer-ring::before {
+    content: " ";
+    width: 77px;
+    height: 50px; /* as the half of the width */
+    border-top-left-radius: 100px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 100px; /* 100px of height + 10px of border */
+    border: 5px solid rgb(247, 189, 189);
+    border-bottom: 0;
+    position: absolute;
+    top: 0;
+}
+
+.feature-icon-outer-ring::after {
+    content: " ";
+    width: 90px;
+    height: 50px; /* as the half of the width */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 8px solid rgb(254, 55, 56);
+    border-top: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+}
+
+.feature-icon-i {
+    color:rgb(254, 55, 56);
+}
+
+.feature-text-color {
+    color: rgb(254, 55, 56) ;
 }
 
 .flex {
@@ -93,7 +155,7 @@
     color: #fff4f3;
 }
 
-.ff-nunito-900 {
+.ff-nunito {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -113,6 +175,9 @@
     font-size: 90px;
 }
 
+.fw-bold {
+    font-weight: 900;
+}
 
 .img-size {
     max-width: 100%;
@@ -166,6 +231,10 @@
     padding: 20px;
 }
 
+.pl-20 {
+    padding-left: 20px;
+}
+
 .pl-100 {
     padding-left: 100px;
 }
@@ -213,3 +282,6 @@
     width: 50%;
 }
 
+.w-90 {
+    width: 90%;
+}
