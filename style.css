@@ -1,0 +1,215 @@
+/*********************************************/
+/*                  reset                    */
+/*********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.align-center {
+    align-self: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.align-end {
+    align-self: end;
+}
+.bg-linear-gradient {
+    background: linear-gradient(90deg, rgb(245, 124, 126), rgb(236, 109, 109), rgb(222, 81, 81));
+}
+
+.border-icon {
+    background-color:#fff4f3 ;
+    border-radius: 50%;
+}
+
+.carrousel-card {
+    align-items: center;
+    border: 2px solid #e9e7e7;
+    border-radius: 25px;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+}
+
+.carrousel-card-hover{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 10px 35px rgb(5, 5, 5, 0.1);
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    transform: scale(1.2);
+    width: 300px;
+    z-index: 0;
+    
+}
+
+.bb {
+    background-color: #fff4f3;
+    border-radius: 35px;
+    border: 0px solid #fff4f3;
+}
+
+.border-right {
+    border-right: 1px solid #fff4f3;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.color-icon-p {
+    color: rgb(255, 73, 72);
+}
+
+.color-icon-wp {
+    color: #fff4f3;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-columns {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.fc-wp {
+    color: #fff4f3;
+}
+
+.ff-nunito-900 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-90 {
+    font-size: 90px;
+}
+
+
+.img-size {
+    max-width: 100%;
+    height: auto;
+}
+
+.justify-center {
+    justify-content:center;
+}
+
+.larger-img {
+    width: 500px;
+}
+
+.lh-1 {
+    line-height: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-20 {
+    margin-bottom: 50px;
+}
+
+.mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mx-50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.my-5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.pl-300{
+    padding-left: 300px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.px-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+
+.ta-left {
+    padding-left: 100px;
+}
+
+.ta-right {
+    margin-left: auto;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
