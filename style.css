@@ -29,6 +29,28 @@
     align-self: end;
 }
 
+.b-subscribe{
+    background-color: #ff4948;
+    border: 0;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    height: 55px;
+    position: absolute;
+    right: 0px;
+    width: 190px;
+}
+
+.input-mail{
+    border: 0;
+    border-radius: 50px;
+    height: 55px;
+    outline: 0;  
+    padding: 0 20px;   
+    width: 100%;
+}
 
 .bg-linear-gradient {
     background: linear-gradient(90deg, rgb(245, 124, 126), rgb(236, 109, 109), rgb(222, 81, 81));
@@ -179,6 +201,10 @@
     color: #514848;
 }
 
+.fc-mgray {
+    color: #858180;
+}
+
 .ff-nunito {
     font-family: 'Nunito', sans-serif;
 }
@@ -216,6 +242,8 @@
     height: auto;
 }
 
+
+
 .inverter {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -245,6 +273,11 @@
 
 .m-0 {
     margin: 0;
+}
+
+.mail-input {
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .mb-20 {
@@ -298,9 +331,17 @@
     padding-left: 300px;
 }
 
+::placeholder{
+    color: #b7b4b3;
+}
+
 .pt-20 {
     padding-top: 20px;
     }
+
+.pt-30 {
+    padding-top: 30px;
+}
 
 .pt-50 {
     padding-top: 50px;
@@ -310,16 +351,32 @@
     padding-right: 20px;
 }
 
+
+
 .py-100 {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.subscribe {
+    background-color: #fff4f4;
+    width: 50%;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
 
+.subscribe-wrap {
+    text-align: center;
+}
 
 .pb-50 {
-    
     padding-bottom: 50px;
+}
+
+.position-relative {
+    position: relative;
 }
 
 .px-50 {
