@@ -9,36 +9,25 @@
 
 <body class="m-0">
 
-   <header id="header" class="bg-linear-gradient">
+   <header id="header" class="bg-linear-gradient position-fixed">
       <div class="flex pt-20 container">
 
          <div class="flex-columns w-1-3">
-            <svg class="color-pink" xmlns="http://www.w3.org/2000/svg" width="60" height="60Esp"
-               viewBox="1 0.967 800.001 800.034">
-               <path
-                  d="M801.001 400.984c0 220.923-179.086 400.017-400 400.017s-400-179.094-400-400.017C1.001 180.06 180.087.966 401.001.966s400 179.094 400 400.018z"
-                  fill="#f57c7e" />
-               <path
-                  d="M522.932 400.982c0-67.342-54.583-121.931-121.922-121.931-67.343 0-121.931 54.589-121.931 121.931 0 67.34 54.588 121.931 121.931 121.931 67.339 0 121.922-54.591 121.922-121.931"
-                  fill="#fff4f3" />
-               <path
-                  d="M401.018.967c-38.11 0-74.924 5.442-109.841 15.397v216.222c31.58-20.638 69.288-32.681 109.833-32.681 111.043 0 201.072 90.025 201.072 201.077S512.053 602.059 401.01 602.059c-111.052 0-201.08-90.025-201.08-201.077 0-3.572.102-7.12.282-10.648l-.282.222V55.241C80.994 124.564 1 253.392 1 400.982 1 621.903 180.097 801 401.018 801 621.936 801 801 621.903 801 400.982 801 180.064 621.936.967 401.018.967"
-                  fill="#fff4f3" />
-            </svg>
+            <img id="header-img" src="./assets/logo.svg" alt="">
          </div>
-
-         <nav id="nav-bar" class="flex flex-row w-1-3">
-            <a href="#" class="border-right">
-               <i class="fa-solid fa-magnifying-glass  border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
+         
+         <nav id="nav-bar" class="flex flex-row w-1-3 justify-center">
+            <a  href="#spec-section" class="nav-link border-right">
+               <i class="fa-solid fa-gear  border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
             </a>
-            <a href="#" class="border-right">
+            <a href="#shoping-section" class="nav-link border-right">
                <i class="fa-solid fa-basket-shopping  border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
             </a>
-            <a href="#" class="align-center">
-               <i class="fa-regular fa-user border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
+            <a href="#subscribe-section" class="nav-link align-center">
+               <i class="fa-solid fa-envelope border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
             </a>
          </nav>
-      
+
 
          <a href="#" class="flex w-1-3">
             <i class="fa-solid fa-bars color-icon-wp align-center fs-20 ta-right pr-50"></i>
@@ -51,7 +40,7 @@
       <section class="bg-linear-gradient py-100 ">
          <div class="flex flex-row container">
             <div class="flex flex-columns justify-center w-50 ">
-               <img id="headr-img" class="img-size larger-img  align-end" src="/beats-fone-red.png" alt="">
+               <img id="headr-img" class="img-size larger-img  align-end" src="./assets/beats-fone-red.png" alt="">
             </div>
 
             <div class="Flex pt-50 w-50">
@@ -88,22 +77,26 @@
             <i class="fa-solid fa-chevron-left p-20"></i>
 
             <div class="carrousel-card">
-               <img src="./headphone-red.png" alt="">
+               <img src="./assets/headphone-red.png" alt="">
             </div>
 
             <div class="carrousel-card-hover">
-               <img src="./headphone-blue.png" alt="">
+               <img src="./assets/headphone-blue.png" alt="">
             </div>
 
             <div class="carrousel-card">
-               <img src="./headphone-orange.png" alt="">
+               <img src="./assets/headphone-orange.png" alt="">
             </div>
 
             <i class="fa-solid fa-chevron-right p-20"></i>
          </div>
       </section>
 
-      <section class="container">
+      <section class=" container video">
+         <video id="video" src="./assets/Headphone-beats-video.mp4"></video>
+      </section>
+
+      <section id="spec-section" class="container">
          <div class="flex flex-row">
             <div class="flex flex-columns w-50">
                <div class="ff-nunito fs-40 w-90 lh-50 ">
@@ -151,24 +144,24 @@
             </div>
 
             <div class="flex">
-               <img src="./headphone-beats-yb.PNG" alt="">
+               <img src="./assets/headphone-beats-yb.PNG" alt="">
             </div>
          </div>
 
       </section>
 
-      <section class="container py-100">
+      <section id="shoping-section" class="container py-100">
          <div class="py-100 flex flex-columns">
             <h3 class="ff-nunito align-center fs-50">Our Latest Product</h3>
             <p class="ff-nunito align-center">Lorem ipsum dolor sit amet consectetur adipiscing elit. Maecenas facilisis
                nunc ipsum aliquem, ante.</p>
          </div>
 
-         <div class="flex flex-row">
+         <div class="flex flex-row mobile-flex-column">
 
             <div class="store-card-wrap">
                <div class="store-card bg-pink ">
-                  <img class="store-img-pink inverter" src="./Headophone-beats-pink.png" alt="">
+                  <img class="store-img-pink inverter" src="./assets/Headophone-beats-pink.png" alt="">
                   <i class=" fa-solid fa-cart-shopping store-icon bg-pink"></i>
                </div>
 
@@ -197,7 +190,7 @@
 
             <div class="store-card-wrap">
                <div class="store-card bg-blue ">
-                  <img class="store-img-blue inverter" src="./Headphone-beats-blue.png" alt="">
+                  <img class="store-img-blue inverter" src="./assets/Headphone-beats-blue.png" alt="">
                   <i class=" fa-solid fa-cart-shopping store-icon bg-blue"></i>
                </div>
 
@@ -226,7 +219,7 @@
 
             <div class="store-card-wrap">
                <div class="store-card bg-green ">
-                  <img class="store-img-green" src="./Headphone-beats-green.png" alt="">
+                  <img class="store-img-green" src="./assets/Headphone-beats-green.png" alt="">
                   <i class=" fa-solid fa-cart-shopping store-icon bg-green"></i>
                </div>
 
@@ -259,7 +252,7 @@
       <section class="container">
          <div class="flex flex-row py-100">
             <div>
-               <img class="img-size" src="./HEadphone-in-the-box.png" alt="">
+               <img class="img-size" src="./assets/HEadphone-in-the-box.png" alt="">
             </div>
 
             <div class="w-50 ff-nunito">
@@ -293,15 +286,15 @@
          </div>
       </section>
 
-      <section class="container py-100">
+      <section id="subscribe-section" class="container py-100">
          <div class="Subscribe">
             <div class="Subscribe-wrap">
                <p class="fs-50 fw-bold ff-nunito">Subscribe</p>
                <p class="ff-nunito fw-bold fc-mgray">Lorem ipsum dolor sit amet, consectetur</p>
             </div>
-            <form id="form" class="pt-30 position-relative" action="">
-               <input id="email" class="input-mail" type="text" placeholder="Enter Your email address">
-               <button id="submit" class="b-subscribe">Subscribe</button>
+            <form id="form" class="pt-30 position-relative" action="https://www.freecodecamp.com/email-submit">
+               <input id="email" name="email" class="input-mail" type="email" required placeholder="Enter Your email address">
+               <button id="submit" type="submit" class="b-subscribe">Subscribe</button>
             </form>
          </div>
       </section>
@@ -327,7 +320,7 @@
             </div>
 
 
-            <nav class="align-center w-1-3">
+            <nav class="align-center w-1-3 ta-center">
                <div>
                   <a class="fs-20 ff-nunito fw-bold fc-wp pr-20" href="#">Home</a>
                   <a class="fs-20 ff-nunito fw-bold fc-wp pr-20" href="#">About</a>
@@ -336,7 +329,7 @@
             </nav>
 
 
-            <div class="align-center w-1-3">
+            <div class="align-center w-1-3 text-align-end">
                <a class="fc-pink pr-30" href="#">
                   <i class="fa-brands fa-instagram border-icon color-icon-p align-center p-10 fs-16"></i>
                </a>
