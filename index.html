@@ -9,10 +9,11 @@
 
 <body class="m-0">
 
-   <header class="bg-linear-gradient">
+   <header id="header" class="bg-linear-gradient">
       <div class="flex pt-20 container">
-         <div class="flex-columns">
-            <svg class="color-pink" xmlns="http://www.w3.org/2000/svg" width="80" height="80Esp"
+
+         <div class="flex-columns w-1-3">
+            <svg class="color-pink" xmlns="http://www.w3.org/2000/svg" width="60" height="60Esp"
                viewBox="1 0.967 800.001 800.034">
                <path
                   d="M801.001 400.984c0 220.923-179.086 400.017-400 400.017s-400-179.094-400-400.017C1.001 180.06 180.087.966 401.001.966s400 179.094 400 400.018z"
@@ -25,20 +26,24 @@
                   fill="#fff4f3" />
             </svg>
          </div>
-         <div class="flex flex-row ta-right my-5">
-            <div class="border-right">
-               <i class="fa-solid fa-magnifying-glass  border-icon color-icon-p align-center p-20 mx-50 fs-20"></i>
-            </div>
-            <div class="border-right">
-               <i class="fa-solid fa-basket-shopping  border-icon color-icon-p align-center p-20 mx-50 fs-20"></i>
-            </div>
-            <div class="align-center">
-               <i class="fa-regular fa-user border-icon color-icon-p align-center p-20 mx-50 fs-20"></i>
-            </div>
-         </div>
-         <div class="flex ta-right">
-            <i class="fa-solid fa-bars color-icon-wp align-center ml-auto fs-40 "></i>
-         </div>
+
+         <nav id="nav-bar" class="flex flex-row w-1-3">
+            <a href="#" class="border-right">
+               <i class="fa-solid fa-magnifying-glass  border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
+            </a>
+            <a href="#" class="border-right">
+               <i class="fa-solid fa-basket-shopping  border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
+            </a>
+            <a href="#" class="align-center">
+               <i class="fa-regular fa-user border-icon color-icon-p align-center p-10 mx-20 fs-16"></i>
+            </a>
+         </nav>
+      
+
+         <a href="#" class="flex w-1-3">
+            <i class="fa-solid fa-bars color-icon-wp align-center fs-20 ta-right pr-50"></i>
+         </a>
+
       </div>
    </header>
 
@@ -46,7 +51,7 @@
       <section class="bg-linear-gradient py-100 ">
          <div class="flex flex-row container">
             <div class="flex flex-columns justify-center w-50 ">
-               <img class="img-size larger-img  align-end" src="/beats-fone-red.png" alt="">
+               <img id="headr-img" class="img-size larger-img  align-end" src="/beats-fone-red.png" alt="">
             </div>
 
             <div class="Flex pt-50 w-50">
@@ -294,12 +299,58 @@
                <p class="fs-50 fw-bold ff-nunito">Subscribe</p>
                <p class="ff-nunito fw-bold fc-mgray">Lorem ipsum dolor sit amet, consectetur</p>
             </div>
-            <div class="pt-30 position-relative">
-               <input class="input-mail" type="text" placeholder="Enter Your email address">
-                <button class="b-subscribe">Subscribe</button>
-            </div>
+            <form id="form" class="pt-30 position-relative" action="">
+               <input id="email" class="input-mail" type="text" placeholder="Enter Your email address">
+               <button id="submit" class="b-subscribe">Subscribe</button>
+            </form>
          </div>
       </section>
-
    </main>
+
+   <footer class="bg-linear-gradient py-60">
+      <div class="container">
+         <div class="flex flex-row">
+
+            <div class="w-20p justify-center w-1-3">
+               <svg class="color-pink" xmlns="http://www.w3.org/2000/svg" width="60" height="60Esp"
+                  viewBox="1 0.967 800.001 800.034">
+                  <path
+                     d="M801.001 400.984c0 220.923-179.086 400.017-400 400.017s-400-179.094-400-400.017C1.001 180.06 180.087.966 401.001.966s400 179.094 400 400.018z"
+                     fill="#f57c7e" />
+                  <path
+                     d="M522.932 400.982c0-67.342-54.583-121.931-121.922-121.931-67.343 0-121.931 54.589-121.931 121.931 0 67.34 54.588 121.931 121.931 121.931 67.339 0 121.922-54.591 121.922-121.931"
+                     fill="#fff4f3" />
+                  <path
+                     d="M401.018.967c-38.11 0-74.924 5.442-109.841 15.397v216.222c31.58-20.638 69.288-32.681 109.833-32.681 111.043 0 201.072 90.025 201.072 201.077S512.053 602.059 401.01 602.059c-111.052 0-201.08-90.025-201.08-201.077 0-3.572.102-7.12.282-10.648l-.282.222V55.241C80.994 124.564 1 253.392 1 400.982 1 621.903 180.097 801 401.018 801 621.936 801 801 621.903 801 400.982 801 180.064 621.936.967 401.018.967"
+                     fill="#fff4f3" />
+               </svg>
+            </div>
+
+
+            <nav class="align-center w-1-3">
+               <div>
+                  <a class="fs-20 ff-nunito fw-bold fc-wp pr-20" href="#">Home</a>
+                  <a class="fs-20 ff-nunito fw-bold fc-wp pr-20" href="#">About</a>
+                  <a class="fs-20 ff-nunito fw-bold fc-wp pr-20" href="#">Product</a>
+               </div>
+            </nav>
+
+
+            <div class="align-center w-1-3">
+               <a class="fc-pink pr-30" href="#">
+                  <i class="fa-brands fa-instagram border-icon color-icon-p align-center p-10 fs-16"></i>
+               </a>
+               <a class="fc-pink pr-30" href="#">
+                  <i class="fa-brands fa-twitter border-icon color-icon-p align-center p-10 fs-16"></i>
+               </a>
+               <a class="fc-pink pr-30" href="#">
+                  <i class="fa-brands fa-facebook border-icon color-icon-p align-center p-10 fs-16"></i>
+               </a>
+
+            </div>
+         </div>
+
+      </div>
+   </footer>
+
 </body>
