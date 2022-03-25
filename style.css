@@ -3,6 +3,7 @@
 /*********************************************/
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -126,6 +127,8 @@ header {
 .container {
     margin: auto;
     max-width: 1100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .description-text-color {
@@ -202,6 +205,11 @@ header {
 
 .color-light-pink {
     color: #fff4f3;
+}
+
+.color-medium-pink {
+    color: #ffd0cc;
+    
 }
 
 .color-pink {
@@ -290,9 +298,14 @@ header {
 .lh-90 {
     line-height: 90px;
 }
-''
+
 .m-0 {
     margin: 0;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mr-0 {
@@ -304,8 +317,12 @@ header {
     border-radius: 25px;
 }
 
-.mb-20 {
+.mb-50 {
     margin-bottom: 50px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
 }
 
 .mx-20 {
@@ -384,10 +401,15 @@ header {
     padding-right: 40px;
 }
 
+.pt-60 {
+    padding-top: 60px;
+}
+
 .py-60 {
     padding-top:40px;
     padding-bottom: 40px;
 }
+
 
 .py-100 {
     padding-top: 100px;
@@ -400,7 +422,7 @@ header {
     border-radius: 25px;
     justify-content: center;
     margin: 0 auto;
-    padding: 50px 100px;
+    padding: 50px 28px;
 }
 
 .pb-50 {
@@ -416,45 +438,17 @@ header {
     padding-right: 50px;
 }
 
+.px-45 {
+    padding-left: 45px;
+    padding-right: 45px;
+}
 
 .store-card-wrap {
     margin-right: 60px;
     width: 33%;
 }
 
-@media (max-width:1000px) {
-    .store-card-wrap {
-        width: 50%;
-        margin: 0 auto;
-        padding-top: 70px;
-    }
-    .mobile-flex-column {
-        flex-direction: column;
-    }
-    .technique-section{
-        flex-direction: column;
-        text-align: center;
-    }
-    .spec-section-wrap {
-        padding-left: 30px;
-    }
-    .w-100 {
-        width: 100%;
-    }
-    .mobile-p-20 {
-        padding-right: 20px;
-    }
-    .mobile-m-0 {
-        margin: 0 auto;
-    }
-    .mobile-pl-10 {
-        padding-left: 0;
-    }
-    .b-subscribe{
-        right: -66px;
-    }
-    
-}
+
 
 .rounded-button {
     align-self: center;
@@ -476,7 +470,7 @@ header {
     display: flex;
     height: 230px;
     justify-content: center;
-    width: 100%;
+    width: 250px;
     position: relative;
 }
 
@@ -554,4 +548,81 @@ header {
 
 .credits {
     align-items: end;
+    color: #ffd0cc;
+    padding-right: 10px;
+}
+
+@media (max-width:1000px) {
+    .store-card-wrap {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+    .mobile-flex-column {
+        flex-direction: column;
+    }
+    .technique-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .spec-section-wrap {
+        padding-left: 30px;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    .mobile-p-20 {
+        padding-right: 20px;
+    }
+    .mobile-m-0 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-pl-10 {
+        padding-left: 0;
+    }
+    .mobile-img-size {
+        width: 100%;
+    }
+    .w-50 {
+        width: 100%;
+    }
+
+    .b-subscribe {
+        position: static;
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .input-mail {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe {
+        width: 100%;
+        border-radius: 0px;
+        padding: 50px 1px;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .mobile-text-align-center {
+        text-align: center;
+    }
+
+    .mobile-w-50 {
+        width: 50%;
+    }
+
+    .mobile-w-100 {
+        width: 100%;
+    }
+
+    .input-mail {
+        padding: 0 13px;
+    }
 }
