@@ -290,7 +290,7 @@ header {
 .lh-90 {
     line-height: 90px;
 }
-
+''
 .m-0 {
     margin: 0;
 }
@@ -550,4 +550,8 @@ header {
 
 .w-1-3 {
     width: 33%;
+}
+
+.credits {
+    align-items: end;
 }
