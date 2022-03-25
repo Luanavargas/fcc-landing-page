@@ -11,12 +11,14 @@ a {
     text-decoration: none;
 }
 
+header {
+    z-index: 2;
+}
+
 
 .align-center {
     align-self: center;
 }
-
-
 
 .arrow-conf {
     border: 3px solid #514848;
@@ -87,17 +89,16 @@ a {
     justify-content: center;
     transform: scale(1.2);
     width: 300px;
-    z-index: 0;
-    
+    z-index: 0;   
 }
 
-.bb {
+.backgound-button-light-pink {
     background-color: #fff4f3;
     border-radius: 35px;
     border: 0px solid #fff4f3;
 }
 
-.bb-20-gray {
+.arrow-border-gray {
     border-bottom: 1px solid #ececec;
     padding-bottom: 20px;
     align-self: center;
@@ -114,11 +115,11 @@ a {
     margin-bottom: 17px;
 }
 
-.color-icon-p {
+.color-icon-pink {
     color: #de5151;
 }
 
-.color-icon-wp {
+.color-icon-light-pink {
     color: #fff4f3;
 }
 
@@ -199,19 +200,19 @@ a {
     flex-direction: row;
 }
 
-.fc-wp {
+.color-light-pink {
     color: #fff4f3;
 }
 
-.fc-pink {
+.color-pink {
     color: #e86564;
 }
 
-.fc-gray {
+.color-gray {
     color: #514848;
 }
 
-.fc-mgray {
+.color-medium-gray {
     color: #858180;
 }
 
@@ -261,8 +262,6 @@ a {
     max-width: 100%;
     height: auto;
 }
-
-
 
 .inverter {
     -moz-transform: scaleX(-1);
@@ -345,8 +344,6 @@ a {
     padding-left: 20px;
 }
 
-
-
 .pl-25 {
     padding-left: 25px;
 }
@@ -406,10 +403,6 @@ a {
     padding: 50px 100px;
 }
 
-.subscribe-wrap {
-    text-align: center;
-}
-
 .pb-50 {
     padding-bottom: 50px;
 }
@@ -423,9 +416,6 @@ a {
     padding-right: 50px;
 }
 
-.size-15 {
-    font-size: 15px;
-}
 
 .store-card-wrap {
     margin-right: 60px;
@@ -441,11 +431,43 @@ a {
     .mobile-flex-column {
         flex-direction: column;
     }
+    .technique-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .spec-section-wrap {
+        padding-left: 30px;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    .mobile-p-20 {
+        padding-right: 20px;
+    }
+    .mobile-m-0 {
+        margin: 0 auto;
+    }
+    .mobile-pl-10 {
+        padding-left: 0;
+    }
+    .b-subscribe{
+        right: -66px;
+    }
+    
+}
+
+.rounded-button {
+    align-self: center;
+    background-color:#fff4f3 ;
+    border-radius: 50%;
+    color: #de5151;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .video {
     padding-bottom: 100px;
-    text-align: center;
+    width: 100%;
 }
 
 .store-card {
@@ -506,24 +528,16 @@ a {
     color: #fdae38;
 }
 
-.ta-left {
-    padding-left: 100px;
-}
-
-.ta-right {
+.margin-left-auto {
     margin-left: auto;
 }
 
-.ta-center {
+.text-align-center {
     text-align: center;
 }
 
 .text-align-end {
     text-align: end;
-}
-
-.text-align-center {
-    text-align: center;
 }
 
 .w-50 {
